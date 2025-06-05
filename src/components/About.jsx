@@ -17,7 +17,7 @@ const About = () => (
         <div className="flex flex-wrap gap-2">
           {[
             "React",
-            "Next.js",
+            "Angular",
             "Laravel",
             "WordPress",
             "Shopify",

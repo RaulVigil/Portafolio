@@ -1,5 +1,6 @@
 const skills = [
   { name: "React", level: 90 },
+  { name: "Angular", level: 90 },
   { name: "Laravel", level: 80 },
   { name: "Codeigniter", level: 90 },
   { name: "PHP", level: 80 },
@@ -22,7 +23,7 @@ const Skills = () => (
       </h2>
 
       {/* Progress Bars */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 mb-12">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6 mb-12">
         {skills.map(({ name, level }) => (
           <div key={name}>
             <div className="flex justify-between mb-1">
@@ -37,7 +38,7 @@ const Skills = () => (
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Tags */}
       <div className="flex flex-wrap justify-center gap-3">
